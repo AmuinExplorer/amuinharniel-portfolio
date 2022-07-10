@@ -1,0 +1,78 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    * {
+        @apply p-0;
+    }
+}
+
+.down-scroll {
+    animation-name: d-scroll;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+@keyframes d-scroll {
+    0% {
+        bottom: 45px;
+    }
+    50% {
+        bottom: 35px;
+    }
+    100% {
+        bottom: 45px;
+    }
+}
+
+.opacity-in {
+    animation-name: opa;
+    animation-timing-function: ease-in-out;
+    animation-duration: 500ms;
+    animation-fill-mode: forwards;
+}
+
+@keyframes opa {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 100;
+    }
+}
+
+.toggle {
+    animation-name: opa;
+    animation-timing-function: ease-in-out;
+    animation-duration: 500ms;
+    animation-fill-mode: forwards;
+}
+
+@keyframes opa {
+    from {
+        right: -240px;
+        top: 35px;
+    }
+    to {
+        right: 0;
+        top: 50px;
+    }
+}
+
+.prod:hover .modal {
+    display: block;
+    animation-name: up-down;
+    animation-fill-mode: forwards;
+    animation-duration: 500ms;
+}
+
+@keyframes up-down {
+    0% {
+        top: 45%;
+    }
+    50% {
+        top: 50%;
+    }
+}

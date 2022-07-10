@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="46.83414576616239" height="50.0" viewBox="26.0 16.0 46.83414576616239 50.0" preserveAspectRatio="none">
+  <g>
+    <defs>
+      <rect x="31.0" y="16.0" width="17.8341457661625" height="13.592120689304352" id="s-Rectangle_4-d1224-path"></rect>
+      <rect x="55.0" y="16.0" width="17.834145766162393" height="13.592120689304352" id="s-Rectangle_6-d1224-path"></rect>
+      <rect x="55.0" y="35.0" width="17.834145766162393" height="13.592120689304238" id="s-Rectangle_7-d1224-path"></rect>
+    </defs>
+    <g style="mix-blend-mode:normal">
+      <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#s-Rectangle_4-d1224-path" fill="#B4101B" fill-opacity="1.0"></use>
+    </g>
+    <g style="mix-blend-mode:normal">
+      <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#s-Rectangle_6-d1224-path" fill="#B4101B" fill-opacity="1.0"></use>
+    </g>
+    <g style="mix-blend-mode:normal">
+      <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#s-Rectangle_7-d1224-path" fill="#B4101B" fill-opacity="1.0"></use>
+    </g>
+    <text x="26.0" y="53.0" font-family="Poppins" font-weight="800" font-style="normal" font-size="24.0" fill="#000000" id="s-Paragraph-d1224">
+      <tspan font-family="Poppins" font-weight="800" font-style="normal" font-size="24.0" fill="#000000" dy="0.0" x="26.0">A</tspan>
+    </text>
+  </g>
+</svg>

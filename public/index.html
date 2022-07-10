@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en" class="">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/Logo.svg" type="image/x-icon">
+    <title>Harniel Amuin | 2022 Portflio</title>
+    <link rel="stylesheet" href="output.css">
+</head>
+<body class="">
+    
+    <!-- Main Container -->
+    <div class="container mx-auto">
+        <div class="h-screen relative flex justify-center items-center z-30">
+            <!-- navigation container -->
+        <div class="flex justify-between items-center p-10 pt-5 fixed top-[0] w-[100%] ">
+            <div class="">
+                <!-- img -->
+                <img src="images/Logo.svg" alt="">
+                <span class="font-['Arial'] font-bold">Explorer</span>
+            </div>
+            <div class="md:hidden relative">
+                <!-- menu btn -->
+                <img class="btns cursor-pointer" src="images/Image_72.svg" alt="">
+                <!-- links -->
+                <div class="opacity-0 transition  duration-500 mobile-nav absolute font-['Poppins'] bg-neutral-200 h-[300px] right-[-240px] w-[200px] top-[50px] flex flex-col justify-center items-center rounded-lg">
+                    <!-- menu links -->
+                    <span class=" py-3 text-[20px] hover:text-white hover:bg-orange-300 text-rose-400 px-2 w-full text-center transition duration-500 cursor-pointer">
+                        <a href="#projects">Projects</a>
+                    </span>
+                    <span class=" py-3 text-[20px] hover:text-white hover:bg-orange-300 text-rose-400 px-2 w-full text-center transition duration-500 cursor-pointer">
+                        <a href="#contacts">Contacts</a>
+                    </span>
+                    <span class=" py-3 text-[20px] hover:text-white hover:bg-orange-300 text-rose-400 px-2 w-full text-center transition duration-500 cursor-pointer">
+                        <a href="#about">About</a>
+                    </span>
+                    <span class=" py-3 text-[20px] hover:text-white hover:bg-orange-300 text-rose-400 px-2 w-full text-center transition duration-500 cursor-pointer">
+                        <a href="#services">Services</a>
+                    </span>
+                </div>
+            </div>
+            <div class="link font-['Poppins'] hidden transition duration-500 px-5 py-5 rounded-lg md:block">
+                <!-- menu links -->
+                <span class="btn text-[13px] hover:text-white hover:bg-orange-300 px-2 rounded-lg transition duration-500 cursor-pointer">
+                    <a href="#projects">Projects</a>
+                </span>
+                <span class="btn text-[13px] hover:text-white hover:bg-orange-300 px-2 rounded-lg transition duration-500 cursor-pointer">
+                    <a href="#contacts">Contacts</a>
+                </span>
+                <span class="btn text-[13px] hover:text-white hover:bg-orange-300 px-2 rounded-lg transition duration-500 cursor-pointer">
+                    <a href="#about">About</a>
+                </span>
+                <span class="btn text-[13px] hover:text-white hover:bg-orange-300 px-2 rounded-lg transition duration-500 cursor-pointer">
+                    <a href="#services">Services</a>
+                </span>
+            </div>
+        </div>
+        <!-- Hero section container -->
+        <div class="flex flex-col justify-center items-center">
+            <!-- Hero main container -->
+            <div class="flex justify-center items-center flex-col md:flex-row">
+                <div class="">
+                    <!-- hero image -->
+                    <img class="" src="images/Desktop-logo@1x (1).jpg" alt="">
+                </div>
+                <div class="p-5 md:w-1/2 lg:ml-10">
+                    <!-- text content area -->
+                    <div class="font-['Poppins']">
+                        <div class="pl-8 pb-5">
+                            <p class="font-semibold text-[25px] lg:text-[30px] text-gray-400">Hey, I am</p>
+                            <p class="font-extrabold text-[30px] text-rose-400 lg:text-[50px] space-y-0">Harniel Amuin</p>
+                            <p class="font-medium text-[15px] mt-0 pt-0 text-rose-300">Front-End Web Developer</p>
+                            <p class="font-medium text-[15px] text-rose-300">UI Web Designer</p>
+                        </div>
+                        <div class="px-5 py-5">
+                            <p class="font-medium text-center text-[10px] lg:text-[13px]">Hi I am Harniel Amuin. I live in San Andres, Baco. I believe on what
+                                Steve Jobs said "The only way to do <span class="text-rose-400">Great Work</span> is to <span class="text-rose-400">Love</span> what you do."
+                                and I am a type of person that always aim for the best not for the good one.
+                            </p>
+                        </div>
+                        <div>
+                            <p class="text-[10px] text-center font-medium">
+                                "Everything comes with a purpose"
+                                <br> - unknown
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Scroll button -->
+        <div class="absolute bottom-[45px] down-scroll">
+            <img src="images/Down scroll btn.svg" alt="">
+        </div>
+        <!-- End -->
+        </div>
+
+        <!-- Projects section -->
+        <div id="projects" class="">
+            <div class="p-10 bg-neutral-200 mb-2">
+                <p class="text-[25px] font-['Poppins'] font-bold text-rose-400">Projects</p>
+            </div>
+            <div class="md:grid md:grid-cols-2 lg:grid-cols-3 gap-3">
+                <div class="relative prod">
+                    <img src="images/1.png" alt="">
+                    <div class="modal hidden absolute top-[50%] left-[50%] transform translate-x-[-50%] translate-y-[-50%] font-['Poppins'] p-1 w-full md:w-full">
+                        <div class="bg-slate-500 p-5 rounded-lg">
+                            <span class="font-['Poppins'] font-bold text-2xl text-center block">ADVICE GENERATOR</span>
+                            <div class="">
+                                <p class="text-1xl text-neutral-200">Responsive UI Design</p>
+                                <p class="text-1xl text-neutral-200">Uses Advice Slip Api</p>
+                            </div>
+                            <button class="w-full bg-rose-400 rounded-lg py-2"><a class="text-white" target="_blank" class="text-1xl" href="https://advice-generator-component.netlify.app">Preview Site</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="relative prod">
+                    <img src="images/2.png" alt="">
+                    <div class="modal hidden absolute top-[50%] left-[50%] transform translate-x-[-50%] translate-y-[-50%] font-['Poppins'] w-full md:w-full p-1">
+                        <div class="bg-slate-500 p-5 rounded-lg">
+                            <span class="font-['Poppins'] font-bold text-2xl text-center block">EXPENSES CHART</span>
+                            <div class="">
+                                <p class="text-1xl text-neutral-200">Responsive UI Design</p>
+                                <p class="text-1xl text-neutral-200">Uses Chart JS</p>
+                            </div>
+                            <button class="w-full bg-rose-400 rounded-lg py-2"><a class="text-white" target="_blank" class="text-1xl" href="https://expenses-chart-main.netlify.app">Preview Site</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="relative prod">
+                    <img src="images/3.png" alt="">
+                    <div class="modal hidden absolute top-[50%] left-[50%] transform translate-x-[-50%] translate-y-[-50%] font-['Poppins'] w-full md:w-full p-1">
+                        <div class="bg-slate-500 p-5 rounded-lg">
+                            <span class="font-['Poppins'] font-bold text-2xl text-center block">BASE APPAREL</span>
+                            <div class="">
+                                <p class="text-1xl text-neutral-200">Responsive UI Design</p>
+                            </div>
+                            <button class="w-full bg-rose-400 rounded-lg py-2"><a class="text-white" target="_blank" class="text-1xl" href="https://portfolio-e39e8.web.app/base-apparel-coming-soon-master/index.html">Preview Site</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="relative prod">
+                    <img src="images/4.png" alt="">
+                    <div class="modal hidden absolute top-[50%] left-[50%] transform translate-x-[-50%] translate-y-[-50%] font-['Poppins'] w-full md:w-full p-1">
+                        <div class="bg-slate-500 p-5 rounded-lg">
+                            <span class="font-['Poppins'] font-bold text-2xl text-center block">LOGIN PAGE</span>
+                            <div class="">
+                                <p class="text-1xl text-neutral-200">Responsive UI Design</p>
+                            </div>
+                            <button class="w-full bg-rose-400 rounded-lg py-2"><a class="text-white" target="_blank" class="text-1xl" href="https://portfolio-e39e8.web.app/FORM/Form.html">Preview Site</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="relative prod">
+                    <img src="images/5.png" alt="">
+                    <div class="modal hidden absolute top-[50%] left-[50%] transform translate-x-[-50%] translate-y-[-50%] font-['Poppins'] w-full md:w-full p-1">
+                        <div class="bg-slate-500 p-5 rounded-lg">
+                            <span class="font-['Poppins'] font-bold text-2xl text-center block">SNAP INTRO PAGE</span>
+                            <div class="">
+                                <p class="text-1xl text-neutral-200">Responsive UI Design</p>
+                                <p class="text-1xl text-neutral-200">Uses Vanilla JS</p>
+                            </div>
+                            <button class="w-full bg-rose-400 rounded-lg py-2"><a class="text-white" target="_blank" class="text-1xl" href="https://intro-landing-page.netlify.app">Preview Site</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="relative prod">
+                    <img src="images/6.png" alt="">
+                    <div class="modal hidden absolute top-[50%] left-[50%] transform translate-x-[-50%] translate-y-[-50%] font-['Poppins'] w-full md:w-full p-1">
+                        <div class="bg-slate-500 p-5 rounded-lg">
+                            <span class="font-['Poppins'] font-bold text-2xl text-center block">GRID COMPONENT</span>
+                            <div class="">
+                                <p class="text-1xl text-neutral-200">Responsive UI Design</p>
+                            </div>
+                            <button class="w-full bg-rose-400 rounded-lg py-2"><a class="text-white" target="_blank" class="text-1xl" href="https://portfolio-e39e8.web.app/Price%20grid%20component/Single%20price%20grid%20component.html">Preview Site</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="relative prod">
+                    <img src="images/7.png" alt="">
+                    <div class="modal hidden absolute top-[50%] left-[50%] transform translate-x-[-50%] translate-y-[-50%] font-['Poppins'] w-full md:w-full p-1">
+                        <div class="bg-slate-500 p-5 rounded-lg">
+                            <span class="font-['Poppins'] font-bold text-2xl text-center block">SIGN-UP FORM</span>
+                            <div class="">
+                                <p class="text-1xl text-neutral-200">Responsive UI Design</p>
+                            </div>
+                            <button class="w-full bg-rose-400 rounded-lg py-2"><a class="text-white" target="_blank" class="text-1xl" href="https://harnielamuin.github.io/Sign-up_form/">Preview Site</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="relative prod">
+                    <img src="images/8.png" alt="">
+                    <div class="modal hidden absolute top-[50%] left-[50%] transform translate-x-[-50%] translate-y-[-50%] font-['Poppins'] w-full md:w-full p-1">
+                        <div class="bg-slate-500 p-5 rounded-lg">
+                            <span class="font-['Poppins'] font-bold text-2xl text-center block">SHOPPING CART</span>
+                            <div class="">
+                                <p class="text-1xl text-neutral-200">Responsive UI Design</p>
+                                <p class="text-1xl text-neutral-200">Uses Vanilla JS</p>
+                            </div>
+                            <button class="w-full bg-rose-400 rounded-lg py-2"><a class="text-white" target="_blank" class="text-1xl" href="https://portfolio-e39e8.web.app/Shopping%20Cart/index.html">Preview Site</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="relative prod">
+                    <img src="images/portfolio-e39e8.web.app_Starbucks(Clone)_index.html.png" alt="">
+                    <div class="modal hidden absolute top-[50%] left-[50%] transform translate-x-[-50%] translate-y-[-50%] font-['Poppins'] w-full md:w-full p-1">
+                        <div class="bg-slate-500 p-5 rounded-lg">
+                            <span class="font-['Poppins'] font-bold text-2xl text-center block">STARBUCKS CLONE</span>
+                            <div class="">
+                                <p class="text-1xl text-neutral-200">Not Responsive UI Design</p>
+                                <p class="text-1xl text-neutral-200">Old Project</p>
+                            </div>
+                            <button class="w-full bg-rose-400 rounded-lg py-2"><a class="text-white" target="_blank" class="text-1xl" href="https://portfolio-e39e8.web.app/Starbucks(Clone)/index.html">Preview Site</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="relative prod">
+                    <img src="images/10.png" alt="">
+                    <div class="modal hidden absolute top-[50%] left-[50%] transform translate-x-[-50%] translate-y-[-50%] font-['Poppins'] w-full md:w-full p-1">
+                        <div class="bg-slate-500 p-5 rounded-lg">
+                            <span class="font-['Poppins'] font-bold text-2xl text-center block">COUNTER APP</span>
+                            <div class="">
+                                <p class="text-1xl text-neutral-200">Responsive UI Design</p>
+                                <p class="text-1xl text-neutral-200">Uses Vanilla JS</p>
+                                <p class="text-1xl text-neutral-200">Save data in Local Storage</p>
+                            </div>
+                            <button class="w-full bg-rose-400 rounded-lg py-2"><a class="text-white" target="_blank" class="text-1xl" href="https://portfolio-e39e8.web.app/Counter%20App/index2.html">Preview Site</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="relative prod">
+                    <img src="images/11.png" alt="">
+                    <div class="modal hidden absolute top-[50%] left-[50%] transform translate-x-[-50%] translate-y-[-50%] font-['Poppins'] w-full md:w-full p-1">
+                        <div class="bg-slate-500 p-5 rounded-lg">
+                            <span class="font-['Poppins'] font-bold text-2xl text-center block">ATTENDANCE LIST</span>
+                            <div class="">
+                                <p class="text-1xl text-neutral-200">Responsive UI Design</p>
+                                <p class="text-1xl text-neutral-200">PHP</p>
+                                <p class="text-1xl text-neutral-200">MySQL database</p>
+                                <p class="text-1xl text-neutral-200">Cause of error: SSL Certificate expires</p>
+                            </div>
+                            <button class="w-full bg-rose-400 rounded-lg py-2"><a class="text-white" target="_blank" class="text-1xl" href="https://student-attendance.42web.io/?i=3">Preview Site</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="relative prod">
+                    <img src="images/12.png" alt="">
+                    <div class="modal hidden absolute top-[50%] left-[50%] transform translate-x-[-50%] translate-y-[-50%] font-['Poppins'] w-full md:w-full p-1">
+                        <div class="bg-slate-500 p-5 rounded-lg">
+                            <span class="font-['Poppins'] font-bold text-2xl text-center block">ATTENDANCE FORM</span>
+                            <div class="">
+                                <p class="text-1xl text-neutral-200">Responsive UI Design</p>
+                                <p class="text-1xl text-neutral-200">PHP</p>
+                                <p class="text-1xl text-neutral-200">MySQL database</p>
+                                <p class="text-1xl text-neutral-200">Cause of error: SSL Certificate expires</p>
+                            </div>
+                            <button class="w-full bg-rose-400 rounded-lg py-2"><a class="text-white" target="_blank" class="text-1xl" href="https://student-form.42web.io/form.php?i=3">Preview Site</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="relative prod">
+                    <img src="images/13.png" alt="">
+                    <div class="modal hidden absolute top-[50%] left-[50%] transform translate-x-[-50%] translate-y-[-50%] font-['Poppins'] w-full md:w-full p-1">
+                        <div class="bg-slate-500 p-5 rounded-lg">
+                            <span class="font-['Poppins'] font-bold text-2xl text-center block">INTERACTIVE RATING</span>
+                            <div class="">
+                                <p class="text-1xl text-neutral-200">Responsive UI Design</p>
+                                <p class="text-1xl text-neutral-200">Uses Vanilla JS</p>
+                            </div>
+                            <button class="w-full bg-rose-400 rounded-lg py-2"><a class="text-white" target="_blank" class="text-1xl" href="https://interactive-rating-main-component.netlify.app">Preview Site</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="relative prod">
+                    <img src="images/14.png" alt="">
+                    <div class="modal hidden absolute top-[50%] left-[50%] transform translate-x-[-50%] translate-y-[-50%] font-['Poppins'] w-full md:w-full p-1">
+                        <div class="bg-slate-500 p-5 rounded-lg">
+                            <span class="font-['Poppins'] font-bold text-2xl text-center block">HUDDLE PAGE</span>
+                            <div class="">
+                                <p class="text-1xl text-neutral-200">Responsive UI Design</p>
+                            </div>
+                            <button class="w-full bg-rose-400 rounded-lg py-2"><a class="text-white" target="_blank" class="text-1xl" href="https://harnielamuin.github.io/huddle-landing_page/">Preview Site</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="relative prod">
+                    <img src="images/15.png" alt="">
+                    <div class="modal hidden absolute top-[50%] left-[50%] transform translate-x-[-50%] translate-y-[-50%] font-['Poppins'] w-full md:w-full p-1">
+                        <div class="bg-slate-500 p-5 rounded-lg">
+                            <span class="font-['Poppins'] font-bold text-2xl text-center block">WEATHER APP</span>
+                            <div class="">
+                                <p class="text-1xl text-neutral-200">Responsive UI Design</p>
+                                <p class="text-1xl text-neutral-200">Uses Open Weather Api</p>
+                                <p class="text-1xl text-neutral-200">Uses Vanilla JS</p>
+                            </div>
+                            <button class="w-full bg-rose-400 rounded-lg py-2"><a class="text-white" target="_blank" class="text-1xl" href="https://amuinharniel.web.app/">Preview Site</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="relative prod">
+                    <img src="images/16.png" alt="">
+                    <div class="modal hidden absolute top-[50%] left-[50%] transform translate-x-[-50%] translate-y-[-50%] font-['Poppins'] w-full md:w-full p-1">
+                        <div class="bg-slate-500 p-5 rounded-lg">
+                            <span class="font-['Poppins'] font-bold text-2xl text-center block">TODO APP</span>
+                            <div class="">
+                                <p class="text-1xl text-neutral-200">Responsive UI Design</p>
+                                <p class="text-1xl text-neutral-200">Uses Vanilla JS</p>
+                            </div>
+                            <button class="w-full bg-rose-400 rounded-lg py-2"><a class="text-white" target="_blank" class="text-1xl" href="https://portfolio-e39e8.web.app/Todo%20App/To%20Do%20Task.html">Preview Site</a></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- contact -->
+        <div id="contacts" class="h-screen flex justify-center items-center">
+            <div>
+                <div class="flex flex-col">
+                    <p class="text-3xl font-['Poppins'] font-bold bg-neutral-200 w-full px-20 py-10 text-rose-400">Let's Get in Touch!</p>
+                    <form onsubmit="sendVerify()" action="mailto:amuinharniel.2003@gmail.com" method="post" enctype="text/plain" class="px-5 py-5 font-['Poppins'] font-bold">
+                        <label for="project">What's your Idea?</label>
+                        <input name="project" type="text" placeholder="Have an idea?" class="bg-rose-400 placeholder:text-white px-5 py-3 rounded-lg focus:bg-rose-300 focus:outline-none" required>
+                        <br>
+                        <br>
+                        <label for="project">Contact:</label>
+                        <input name="contact" type="text" placeholder="Contact or Gmail" class=" bg-rose-400 placeholder:text-white px-5 py-3 rounded-lg focus:bg-rose-300 focus:outline-none" required>
+                        <br>
+                        <br>
+                        <label for="description">Description:</label>
+                        <textarea name="description" id="description" cols="10" rows="10" placeholder="Tell me!" class="bg-rose-400 placeholder:text-white px-5 py-3 rounded-lg focus:bg-rose-300 focus:outline-none"></textarea>
+                        <br>
+                        <input class="sendBtn w-full bg-rose-400 text-white my-10 py-5 hover:bg-rose-300 transition duration-500 cursor-pointer" type="submit" value="Let's Do It">
+                    </form>
+                </div>
+            </div>
+        </div>
+        <span class="w-screen text-center text-red text-3xl">Under Development!</span>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
